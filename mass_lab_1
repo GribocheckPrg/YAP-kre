@@ -1,0 +1,20 @@
+using System;
+class HelloWorld {
+    static void Main() {
+        
+    Console.Write("Введи текст: ");
+    
+    string slova_start = Console.ReadLine();
+    
+    string[] slova_new = new string[]{ slova_start };
+    
+foreach(var slovechko in slova_new) {
+    
+    foreach(var bukovka in slovechko) {
+        Console.WriteLine(bukovka);
+    }
+    
+    Console.WriteLine();
+        }
+    }
+}
